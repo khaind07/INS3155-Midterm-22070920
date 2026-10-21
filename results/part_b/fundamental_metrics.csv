@@ -1,0 +1,2 @@
+keypoints (L/R),matches,inliers,inlier ratio (%),epipolar dist inliers (px),Sampson inliers (px),Sampson all (px),F time (ms)
+629/567,411,381,92.7007,0.2328,0.1646,1.7049,0.5462

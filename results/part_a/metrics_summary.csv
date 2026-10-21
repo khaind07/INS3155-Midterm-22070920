@@ -1,0 +1,45 @@
+noise,filter,params,PSNR (dB),SSIM,MSE,Time (ms)
+Gaussian,None (noisy),-,22.3947,0.4363,374.6717,0.0
+Gaussian,Mean,3x3,25.0948,0.662,208.4386,2.3095
+Gaussian,Mean,5x5,23.0225,0.6204,346.2366,3.1922
+Gaussian,Mean,7x7,21.9672,0.574,444.1619,2.1342
+Gaussian,Gaussian,"3x3, sigma=0.5",25.6137,0.5693,178.5977,0.8922
+Gaussian,Gaussian,"3x3, sigma=1.0",26.021,0.6899,166.9468,1.3118
+Gaussian,Gaussian,"3x3, sigma=2.0",25.3108,0.6715,198.0358,0.6166
+Gaussian,Gaussian,"5x5, sigma=0.5",25.6137,0.5693,178.5977,0.9245
+Gaussian,Gaussian,"5x5, sigma=1.0",25.553,0.7111,188.3829,0.853
+Gaussian,Gaussian,"5x5, sigma=2.0",23.7293,0.6632,292.6246,0.8142
+Gaussian,Gaussian,"7x7, sigma=0.5",25.6137,0.5693,178.5977,1.6684
+Gaussian,Gaussian,"7x7, sigma=1.0",25.4803,0.7118,191.7918,1.1784
+Gaussian,Gaussian,"7x7, sigma=2.0",23.1223,0.6504,338.1595,0.9261
+Gaussian,Median,3x3,25.2222,0.6128,197.6417,1.1801
+Gaussian,Median,5x5,23.361,0.609,316.2291,2.9683
+Gaussian,Median,7x7,22.2482,0.5839,416.9605,74.298
+Gaussian,Laplacian sharpen,"3x3, alpha=0.5",16.43,0.2755,1479.974,16.5756
+Gaussian,Laplacian sharpen,"3x3, alpha=1.0",13.3391,0.2083,3016.6864,20.5626
+Gaussian,Laplacian sharpen,"5x5, alpha=0.5",20.7556,0.3999,546.4381,20.8647
+Gaussian,Laplacian sharpen,"5x5, alpha=1.0",19.1675,0.3626,787.6628,24.9535
+Gaussian,Laplacian sharpen,"7x7, alpha=0.5",21.676,0.4247,442.0866,22.0253
+Gaussian,Laplacian sharpen,"7x7, alpha=1.0",20.8109,0.4081,539.5016,21.8837
+Salt&Pepper,None (noisy),-,17.7992,0.3996,1079.8646,0.0
+Salt&Pepper,Mean,3x3,23.4241,0.5436,301.8665,2.1833
+Salt&Pepper,Mean,5x5,22.4512,0.5467,390.5362,2.8635
+Salt&Pepper,Mean,7x7,21.6487,0.5342,474.7024,2.3796
+Salt&Pepper,Gaussian,"3x3, sigma=0.5",21.2968,0.4841,482.9386,0.6793
+Salt&Pepper,Gaussian,"3x3, sigma=1.0",23.8567,0.5674,271.4494,0.6787
+Salt&Pepper,Gaussian,"3x3, sigma=2.0",23.5613,0.5522,292.14,0.5887
+Salt&Pepper,Gaussian,"5x5, sigma=0.5",21.2968,0.4841,482.9386,0.8284
+Salt&Pepper,Gaussian,"5x5, sigma=1.0",24.0193,0.5989,264.2912,1.0314
+Salt&Pepper,Gaussian,"5x5, sigma=2.0",23.0245,0.5837,340.0957,1.0497
+Salt&Pepper,Gaussian,"7x7, sigma=0.5",21.2968,0.4841,482.9386,1.1753
+Salt&Pepper,Gaussian,"7x7, sigma=1.0",24.0074,0.6011,265.337,0.9235
+Salt&Pepper,Gaussian,"7x7, sigma=2.0",22.6383,0.597,374.725,0.9169
+Salt&Pepper,Median,3x3,27.0737,0.8553,131.2557,1.055
+Salt&Pepper,Median,5x5,23.7174,0.7205,293.5279,3.3227
+Salt&Pepper,Median,7x7,22.28,0.6481,416.1811,63.3946
+Salt&Pepper,Laplacian sharpen,"3x3, alpha=0.5",16.6259,0.3662,1415.0312,16.6907
+Salt&Pepper,Laplacian sharpen,"3x3, alpha=1.0",15.2954,0.3199,1921.0391,16.2141
+Salt&Pepper,Laplacian sharpen,"5x5, alpha=0.5",17.5496,0.4002,1144.08,23.1693
+Salt&Pepper,Laplacian sharpen,"5x5, alpha=1.0",16.9987,0.3796,1299.1447,22.059
+Salt&Pepper,Laplacian sharpen,"7x7, alpha=0.5",17.7031,0.404,1104.1663,22.4435
+Salt&Pepper,Laplacian sharpen,"7x7, alpha=1.0",17.4548,0.397,1169.3966,22.5326

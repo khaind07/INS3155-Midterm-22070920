@@ -1,0 +1,6 @@
+method,levels,seam gradient,overlap sharpness,blend_ms,sharpness vs hard seam (%)
+Feathering,-,44.292,11.483,1963.053,86.32
+Hard seam,0,72.693,13.303,2853.529,100.0
+Multi-band,2,52.474,13.266,7181.543,99.72
+Multi-band,4,50.648,13.272,7102.554,99.768
+Multi-band,6,50.668,13.278,7049.368,99.815

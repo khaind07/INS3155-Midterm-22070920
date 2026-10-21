@@ -1,0 +1,7 @@
+# Tested with Python 3.12.6: opencv-python 4.13.0, numpy 2.4.6, scikit-image 0.26.0,
+# matplotlib 3.10.9, pandas 3.0.3
+opencv-python>=4.8
+numpy
+scikit-image
+matplotlib
+pandas
